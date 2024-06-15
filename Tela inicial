@@ -1,0 +1,24 @@
+<panel elementName="Panel 3">
+  <pr width='fill' height='fill'>
+    <pc padding='20px' bgColor='#FFFFFF' width='100%' hAlign='center' vAlign='middle'>
+      <pr width='auto' height='auto'>
+        <pc padding='5px'>
+          <pr>
+            <pc>
+              <image color='#FFFFFF' bgColor='#0ABB51' width='52px' height='52px' type='icon' value='business-money-coins' size='32px' cornerRadius='26px' iconType='outline' /> </pc>
+          </pr>
+          <pr>
+            <pc>
+              <text marginTop='3px' color='#0ABB51' size='36px' bold='true' type='Form Data' bgColor='rgba(0, 0, 0, 0)' displayType='actual' decimalPlaces='2' thousandsSeperator='COMMA' decimalSeperator='DOT' numberScale='none' criteria='Status == &quot;Ativo&quot;' value='thisapp.Contas.Saldo_disponivel.sum'> </text>
+            </pc>
+          </pr>
+          <pr>
+            <pc>
+              <text marginTop='3px' color='#333333' size='16px' type='Text' value='Open tickets today'> </text>
+            </pc>
+          </pr>
+        </pc>
+      </pr>
+    </pc>
+  </pr>
+</panel>
